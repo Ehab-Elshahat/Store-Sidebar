@@ -101,6 +101,10 @@ body {
   font-size: 14px;
   color: #4d4b4b;
 }
+.item-box .item-header .header-right {
+  display: flex;
+  align-items: center;
+}
 .item-box .item-header .header-right span {
   text-transform: capitalize;
   font-size: 14px;
@@ -109,9 +113,16 @@ body {
 }
 .item-box .item-header .header-right select {
   border: none;
-  padding: 3px;
-  margin-right: 10px;
 }
+.selectric-wrapper:first-of-type {
+  min-width: 70px;
+  margin-right: 20px;
+  padding: 0;
+}
+.selectric-wrapper:last-of-type {
+  min-width: 180px;
+}
+
 .item-box .item-header .header-right select:focus {
   outline: none;
 }
